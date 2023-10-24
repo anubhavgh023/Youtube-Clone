@@ -1,0 +1,30 @@
+.recommendations{
+    display: flex ;
+    padding: 16px;
+    padding-left: 0px;
+    padding-top: 0;
+    margin-bottom: 16px;
+    flex-shrink: 0;
+    text-wrap: nowrap;
+}
+
+.rec-button{
+    font-family: Roboto,Arial;
+    font-size: 14px;
+    margin-right: 8px;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(121, 121, 121, 0.384);
+    color: white;
+    transition: 
+    background-color 0.15s,
+    color 0.15s;
+}
+.rec-button:hover{
+    background-color: rgba(199, 199, 199, 0.384);
+}
+.rec-button:focus{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Youtube Clone</title>
+  <link rel="icon" type="image/x-icon" href="icons/youtube-favicon-icon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+  <link rel="stylesheet" href="styles/recommendations.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <div class="header">
+    <!-- left-section -->
+    <div class="left-section">
+      <img class="hamburger-menu" src="./icons/hamburger-menu.svg" alt="">
+      <img class="youtube-logo" src="./icons/youtube-logo.svg" alt="">
+    </div>
+    <!-- middle-section -->
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search">
+      <!-- search-button -->
+      <button class="search-button">
+        <img class="search-icon" src="./icons/search.svg" alt="">
+        <div class="tooltip">Search</div>
+      </button>
+      <!-- voice-search-button -->
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="./icons/voice-search-icon.svg" alt="">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <!-- right-section -->
+    <div class="right-section">
+      <!-- upload-icon -->
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="./icons/upload.svg" alt="">
+        <div class="tooltip">Create</div>
+      </div>
+      <!-- notifications-icon -->
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="./icons/notifications.svg" alt="">
+        <div class="notifications-count">3</div>
+        <div class="tooltip">Notifications</div>
+      </div>
+      <!-- current-user-picture -->
+      <img class="current-user-picture" src="./channel-pictures/my-channel.jpg" alt="">
+    </div>
+  </div>
+  </div>
+
+  <!-- Recommendations Section -->
+  <div class="recommendations">
+    <div>
+      <button class="rec-button">All</button>
+    </div>
+    <div>
+      <button class="rec-button">Gaming</button>
+    </div>
+    <div>
+      <button class="rec-button">Computer Programming</button>
+    </div>
+    <div>
+      <button class="rec-button">Physics</button>
+    </div>
+    <div>
+      <button class="rec-button">Recently uploaded</button>
+    </div>
+    <div>
+      <button class="rec-button">Watched</button>
+    </div>
+    <div>
+      <button class="rec-button">New to you</button>
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <div class="sidebar-link">
+      <img src="./icons/home.svg" alt="">
+      <div>Home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icons/youtube-shorts-logo.svg" alt="">
+      <div>Shorts</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icons/subscriptions.svg" alt="">
+      <div>Subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icons/library.svg" alt="">
+      <div>Library</div>
+    </div>
+  </div>
+
+
+  <!-- Video-section -->
+  <div class="video-grid">
+    <!-- Video1 -->
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-1.webp" alt="thumbnail-1">
+        <div class="video-time">
+          8:49
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-1.jpg" alt="">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Rust for TypeScript devs : Borrow Checker
+          </p>
+
+          <p class="video-author">
+            ThePrimeagen 
+            <img class="verified-icon" src="./icons/verified-logo.svg" alt="">
+          </p>
+
+          <p class="video-stats">
+            181K views · 10 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Video2-->
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-2.webp" alt="thumbnail-1">
+        <div class="video-time">
+          8:00:00
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-2.jpg" alt="">
+        </div>
+
+        <div class="video-info">
+          <p class="video-title">
+          JavaScript Full Cource for free 🌐
+          </p>
+
+          <p class="video-author">
+            Bro Code
+            <img class="verified-icon" src="./icons/verified-logo.svg" alt="">
+          </p>
+
+          <p class="video-stats">
+            2.1M views · 1 years ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Video3 -->
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-3.webp" alt="thumbnail-1">
+        <div class="video-time">
+          30:03
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-3.jpg" alt="">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+          Git Essentials
+          </p>
+
+          <p class="video-author">
+          Learn Linux TV
+          </p>
+          <p class="video-stats">
+            21K views · 2 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Video4-->
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-4.webp" alt="thumbnail-1">
+        <div class="video-time">
+          5:26
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-4.jpg" alt="">
+        </div>
+
+        <div class="video-info">
+          <p class="video-title">
+            What's New in React Query 5.0?
+          </p>
+
+          <p class="video-author">
+            Josh tried coding
+          </p>
+
+          <p class="video-stats">
+            19K views · 21 hoursa ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video5 -->
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-5.webp" alt="thumbnail-1">
+        <div class="video-time">
+          6:31
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-5.jpg" alt="">
+        </div>
+        <div class="video-info">
+          <p class="video-title">
+            Day in the life of and Indian Software Developer in Japan
+          </p>
+
+          <p class="video-author">
+            Harkirat Singh
+            <img class="verified-icon" src="./icons/verified-logo.svg" alt="">
+          </p>
+
+          <p class="video-stats">
+            86K views · 2 weeks ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Video6-->
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-6.webp" alt="thumbnail-1">
+        <div class="video-time">
+          4:23
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-6.jpg" alt="">
+        </div>
+
+        <div class="video-info">
+          <p class="video-title">
+            A Simple Way to Learn Complex Skills
+          </p>
+
+          <p class="video-author">
+            Benjamin Keep, PhD, JD
+          </p>
+
+          <p class="video-stats">
+            52K views · 7 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video7-->
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-7.webp" alt="thumbnail-1">
+        <div class="video-time">
+          8:59
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-7.jpg" alt="">
+        </div>
+
+        <div class="video-info">
+          <p class="video-title">
+            Go for Impatient Devs
+          </p>
+
+          <p class="video-author">
+            Issac Harris-Holt
+          </p>
+
+          <p class="video-stats">
+            1K views · 21 hours ago
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Video8-->
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-8.webp" alt="thumbnail-1">
+        <div class="video-time">
+          0:48
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-8.jpg" alt="">
+        </div>
+
+        <div class="video-info">
+          <p class="video-title">
+            coding in c until my program in unsafe
+          </p>
+
+          <p class="video-author">
+            Low Level Learning
+          </p>
+
+          <p class="video-stats">
+            141M views · 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video9-->
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-9.webp" alt="thumbnail-1">
+        <div class="video-time">
+          17:57
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-9.jpg" alt="">
+        </div>
+
+        <div class="video-info">
+          <p class="video-title">
+            How I'd Learn AI in 2023 (if I could start over)
+          </p>
+
+          <p class="video-author">
+            Dave Ebbelaar
+          </p>
+
+          <p class="video-stats">
+            160K views · 2 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video10-->
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-10.webp" alt="thumbnail-1">
+        <div class="video-time">
+          19:41
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-10.jpg" alt="">
+        </div>
+
+        <div class="video-info">
+          <p class="video-title">
+            Mastering Dynamic Programming - How to solve any interview problem (Part 1)
+          </p>
+
+          <p class="video-author">
+            Tech with Nikola
+          </p>
+
+          <p class="video-stats">
+            121K views · 2 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video11-->
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-11.webp" alt="thumbnail-1">
+        <div class="video-time">
+          6:46
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-11.jpg" alt="">
+        </div>
+
+        <div class="video-info">
+          <p class="video-title">
+            Don't Use Websockets (Until You Try This...)
+          </p>
+
+          <p class="video-author">
+            Code with Ryan
+          </p>
+
+          <p class="video-stats">
+            221K views · 10 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video12-->
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-12.webp" alt="thumbnail-1">
+        <div class="video-time">
+          10:36
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-12.jpg" alt="">
+        </div>
+
+        <div class="video-info">
+          <p class="video-title">
+            AADAT INSTRUMENTAL/BHANWARAY feat. Goher Mumtaz | NESCAFE Basement Season 5 | 2019
+          </p>
+
+          <p class="video-author">
+            NESCAFE Basement
+            <img class="verified-icon" src="./icons/verified-logo.svg" alt="">
+          </p>
+
+          <p class="video-stats">
+            32M views · 4 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video13-->
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-13.webp" alt="thumbnail-1">
+        <div class="video-time">
+          1:14:58
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-13.jpg" alt="">
+        </div>
+
+        <div class="video-info">
+          <p class="video-title">
+            He Built India's Largest EV Charging Network
+          </p>
+
+          <p class="video-author">
+            Backstage with Millionaires
+            <img class="verified-icon" src="./icons/verified-logo.svg" alt="">
+          </p>
+
+          <p class="video-stats">
+            141M views · 1 year ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video14-->
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-14.webp" alt="thumbnail-1">
+        <div class="video-time">
+          20:50
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-14.jpg" alt="">
+        </div>
+
+        <div class="video-info">
+          <p class="video-title">
+            Real Cognizant Interview Questions || 3 Years Experience || Java Spring boot Microservice
+          </p>
+
+          <p class="video-author">
+            JAVA INTERVIEW BUDDY 
+          </p>
+
+          <p class="video-stats">
+            190 views · 9 hours ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video15-->
+    <div class="video-preview">
+
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="./thumbnails/thumbnail-15.webp" alt="thumbnail-1">
+        <div class="video-time">
+          53:52
+        </div>
+      </div>
+
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="./channel-pictures/channel-15.jpg" alt="">
+        </div>
+
+        <div class="video-info">
+          <p class="video-title">
+            GPT-4 - How does it work, and how do I build apps with it? - CS50 Tech Talk
+          </p>
+
+          <p class="video-author">
+           CS50 
+          <img class="verified-icon" src="./icons/verified-logo.svg" alt="">
+          </p>
+
+          <p class="video-stats">
+            1.4M views · Streamed 5 months ago
+          </p>
+        </div>
+      </div>
+    </div>
+
+</body>
+
+</html>
