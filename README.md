@@ -2,6 +2,6 @@
 ### Made this YouTube colne with HTML & CSS
 ![YC-screenshot](./assets/YC-screenshot.png)
 
-### Preview
+### Video Preview
 
 
