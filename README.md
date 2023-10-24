@@ -3,6 +3,5 @@
 ![YC-screenshot](./assets/YC-screenshot.png)
 
 ### Preview
-![YC-preview](./assets/YC-preview.mp4)
 
 
