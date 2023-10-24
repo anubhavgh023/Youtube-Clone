@@ -2,7 +2,7 @@
 ### Made this YouTube colne with HTML & CSS
 ![YC-screenshot](./assets/YC-screenshot.png)
 
-### Preview
+### Video Preview
 ![YC-preview](./assets/YC-preview.mp4)
 
 
