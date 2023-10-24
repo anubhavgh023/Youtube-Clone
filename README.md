@@ -3,6 +3,5 @@
 ![YC-screenshot](./assets/YC-screenshot.png)
 
 ### Preview
-![YC-preview](./assets/YC-preview.mp4)
-
+https://github.com/anubhavgh023/Youtube-Clone/assets/93051327/0774ac8e-dae7-4d63-8961-5499fb99dfd0
 
